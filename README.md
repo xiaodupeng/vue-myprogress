@@ -1,6 +1,6 @@
 # vue-myprogress
 
-> 一个自己写的原型进度条
+> 一个自己写的圆形进度条
 
 ## 使用方法
 
@@ -29,4 +29,4 @@ strokewidth(Number) ：进度条宽度
 clockwise(Boolean) ：true(顺时针) false(逆时针)
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[github](https://github.com/xiaodupeng/vue-myprogress).
