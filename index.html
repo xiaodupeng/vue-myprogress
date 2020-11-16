@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue-myprogress</title>
+  </head>
+  <body>
+    <div id="app">
+      <myprogress 
+        :progressnum="progressnum"
+        :bgcolor="bgcolor" 
+        :fillcolor="fillcolor"
+        :diameter="diameter"
+        :strokewidth='strokewidth'
+        :clockwise="clockwise">
+      </myprogress>
+    </div>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <script src="./dist/MyProgress.js"></script>
+    <script>
+      new Vue({
+        el: '#app',
+        data() {
+          return {
+            progressnum: 0.5,
+            bgcolor:"#EAEFF4",
+            fillcolor:"#9400D3",
+            diameter:150,
+            strokewidth:2,
+            clockwise:false
+          }
+        }
+      })
+    </script>
+  </body>
+</html>
