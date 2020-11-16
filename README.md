@@ -9,7 +9,14 @@
 npm install vue-myprogress
 
 # use
+ES6
 import myprogress from 'vue-myprogress'
+
+// 通过use挂载
+Vue.use(myprogress)
+
+// 或者直接导入js文件
+<script src="./dist/MyProgress.js"></script>
 
 <myprogress 
     :progressnum="progressnum"
@@ -29,4 +36,4 @@ strokewidth(Number) ：进度条宽度
 clockwise(Boolean) ：true(顺时针) false(逆时针)
 ```
 
-[github](https://github.com/xiaodupeng/vue-myprogress).
+[https://github.com/xiaodupeng/vue-myprogress](https://github.com/xiaodupeng/vue-myprogress).
