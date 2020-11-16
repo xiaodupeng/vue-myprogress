@@ -1,7 +1,7 @@
 {
   "name": "vue-myprogress",
   "description": "svg原型进度条",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "dp <1731313476@qq.com>",
   "license": "MIT",
   "private": false,
